@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: #1afe49;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: rgba(8, 1, 1, 0.993);
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#animateButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    overflow: hidden; 
+}
+
+#textContainer {
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    transition: all 0.5s;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#hiddenText {
+    font-size: 24px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    display: none; 
+}
+
+
