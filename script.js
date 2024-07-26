@@ -8,7 +8,15 @@ const texts = [
     "welco£e--b-ck-Cask--5",
     "Welcom&-Back-Cask--4",
     "Welcom£-back-Case--3..",
-    "Are you ready, sir?",
+    "Welcome back Case",
+    "Welcome back Case,",
+    "Welcome back.....",
+    "Welco.e bac......",
+    "Welc..e b........",
+    "We....e...c......",
+    "We........c......",
+    ".........ac......",
+    ".....",
     "CLICK"
 ];
 
