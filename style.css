@@ -1,4 +1,3 @@
-/* styles.css */
 body, html {
     height: 100vh;
     margin: 0;
@@ -27,6 +26,7 @@ h2 {
     align-items: center;
     margin-top: -10px;
     padding: 5px;
+    flex-direction: column; /* Add this line */
 }
 
 #animateButton {
@@ -73,17 +73,54 @@ h2 {
 
 #LandingPageImage {
     max-width: 100%;
-    height: 400;
+    height: 400px; /* Add px */
 }
 
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+    body, html {
+        height: auto; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-   body, html, .container, #animateButton, #textContainer, #hiddenText, .image-wrapper, #LandingPageImage {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    flex-wrap: space-between;
-   }
-  }
+    h2 {
+        font-size: 28px; 
+        padding: 20px; 
+    }
+
+    .container {
+        margin-top: 10px; 
+        padding: 10px; 
+        flex-direction: column;
+    }
+
+    #animateButton {
+        width: 90%; 
+        height: 80px; 
+    }
+
+    #textContainer {
+        font-size: 18px; 
+        white-space: normal; 
+        padding: 10px; 
+    }
+
+    #hiddenText {
+        font-size: 18px; 
+        padding: 10px; 
+        margin: 10px 10px; 
+    }
+
+    .image-wrapper {
+        position: static; 
+        margin-top: 20px; 
+    }
+
+    #LandingPageImage {
+        height: auto; 
+}
+}
 
 
