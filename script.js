@@ -9,13 +9,13 @@ const texts = [
     "Welcom&-Back-Cask--4",
     "Welcom£-back-Case--3..",
     "Welcome back Case",
-    "Welcome back Case",
+    "Welcome b0ck Case",
     "Welcome back.....",
-    "Welco.e bac......",
+    "Welco.e bac.....",
     "Welc..e b........",
-    "We....e...c......",
+    "We....e...c....",
     "We........c......",
-    ".........ac......",
+    ".......ac......",
     ".....",
     "CLICK"
 ];
