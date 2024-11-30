@@ -67,14 +67,16 @@ function resetAnimation() {
 }
 
 
+const soundEffect = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
+soundEffect.play();
 
-const soundEffect = new Audio('https://github.com/simgrou/CyberPunkPortfolioSite/Assets/laserButton.mp3');
+//const soundEffect = new Audio('https://github.com/simgrou/CyberPunkPortfolioSite/Assets/laserButton.mp3');
 
 
 const myButton = document.getElementById('textContainer');
 
 myButton.addEventListener('click', () => {
-    soundEffect.play(); // Play the sound when the button is clicked
+    soundEffect.play(); 
 });
 
 //https://github.com/simgrou/CyberPunkPortfolioSite
