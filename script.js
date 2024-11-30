@@ -70,7 +70,7 @@ function resetAnimation() {
 
 const soundEffect = new Audio('laserButton.mp3');
 
-const myButton = document.getElementById('animateButton');
+const myButton = document.getElementById('textContainer');
 
 myButton.addEventListener('click', () => {
     soundEffect.play(); // Play the sound when the button is clicked
