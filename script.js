@@ -73,7 +73,7 @@ soundEffect.play();
 //const soundEffect = new Audio('https://github.com/simgrou/CyberPunkPortfolioSite/Assets/laserButton.mp3');
 
 
-const myButton = document.getElementById('textContainer');
+const myButton = document.getElementById('animateButton');
 
 myButton.addEventListener('click', () => {
     soundEffect.play(); 
