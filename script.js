@@ -66,17 +66,17 @@ function resetAnimation() {
     index = 0;
 }
 
-
-const soundEffect = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
-soundEffect.play();
-
-//const soundEffect = new Audio('https://github.com/simgrou/CyberPunkPortfolioSite/Assets/laserButton.mp3');
-
-
-const myButton = document.getElementById('animateButton');
-
-myButton.addEventListener('click', () => {
-    soundEffect.play(); 
-});
-
 //https://github.com/simgrou/CyberPunkPortfolioSite
+
+// Ensure the audio file path is correct
+const soundEffect = new Audio('Assets/laserButton.mp3');
+
+// Ensure the button exists and attach an event listener
+const myButton = document.getElementById('animateButton');
+if (myButton) {
+    myButton.addEventListener('click', () => {
+        soundEffect.play();
+    });
+} else {
+    console.error('Button with id "animateButton" not found.');
+}
