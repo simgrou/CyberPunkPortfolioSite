@@ -68,7 +68,8 @@ function resetAnimation() {
 
 
 
-const soundEffect = new Audio('Assets/laserButton.mp3');
+const soundEffect = new Audio('https://example.com/Assets/laserButton.mp3');
+
 
 const myButton = document.getElementById('textContainer');
 
