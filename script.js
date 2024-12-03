@@ -73,7 +73,7 @@ const soundEffect = new Audio('Assets/laserButton.mp3');
 
 // Ensure the button exists and attach an event listener
 const myButton = document.getElementById('animateButton');
-if (myButton) {
+if (myButton.textContent === "CLICK") {
     myButton.addEventListener('click', () => {
         soundEffect.play();
     });
