@@ -71,11 +71,16 @@ function resetAnimation() {
 // Ensure the audio file path is correct
 const soundEffect = new Audio('Assets/laserButton.mp3');
 
-// Ensure the button exists and attach an event listener
+// Ensure the button exists
 const myButton = document.getElementById('animateButton');
-if (myButton.textContent === "CLICK") {
+
+if (myButton) {
+    // Attach an event listener to the button
     myButton.addEventListener('click', () => {
-        soundEffect.play();
+        // Check if the button's text content is "CLICK"
+        if (myButton.textContent === "CLICK") {
+            soundEffect.play(); // Play the sound effect
+        }
     });
 } else {
     console.error('Button with id "animateButton" not found.');
