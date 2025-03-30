@@ -3,15 +3,15 @@ const textContainer = document.getElementById('textContainer');
 const hiddenText = document.getElementById('hiddenText');
 
 const texts = [
-    "1",
-    "2",
-    "3",
-    "456",
-    "23",
-    "4",
-    "5",
+    "Here is a poem",
+    "for one so dear",
+    "a mother",
+    "mummy dearest",
+    "maker of sandwiches",
+    "advisor of when to fuck off",
+    "poem is finished",
     "sod off",
-    "press the button then"
+    "press the button then..."
 ];
 
 let index = 0;
