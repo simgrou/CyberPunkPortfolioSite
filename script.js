@@ -38,7 +38,7 @@ animateButton.addEventListener('mouseover', () => {
 });
 
 animateButton.addEventListener('click', () => {
-    if (textContainer.textContent === "press the button then") {
+    if (textContainer.textContent === "press the button then...") {
         revealParagraph();
         textContainer.textContent = "love u bye";
         completed = false;  // Allow reset only after displaying "ERROR....RE.SET"
