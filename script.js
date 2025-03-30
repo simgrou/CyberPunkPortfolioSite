@@ -44,7 +44,7 @@ animateButton.addEventListener('click', () => {
         completed = false;  // Allow reset only after displaying "ERROR....RE.SET"
     } else if (textContainer.textContent === "love u bye") {
         resetAnimation();
-        textContainer.textContent = 'Q3lfhem--ck-8%-se--7';
+        textContainer.textContent = ' ... ';
     }
 });
 
