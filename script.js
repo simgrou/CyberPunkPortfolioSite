@@ -63,7 +63,7 @@ function resetAnimation() {
 //https://github.com/simgrou/CyberPunkPortfolioSite
 
 // Ensure the audio file path is correct
-const soundEffect = new Audio('Assets/laserButton.mp3');
+const soundEffect = new Audio('Assets/mum_stewie.mp3');
 
 // Ensure the button exists
 const myButton = document.getElementById('animateButton');
@@ -72,7 +72,7 @@ if (myButton) {
     // Attach an event listener to the button
     myButton.addEventListener('click', () => {
         // Check if the button's text content is "CLICK"
-        if (myButton.textContent === "CLICK") {
+        if (myButton.textContent === "press the button then...") {
             soundEffect.play(); // Play the sound effect
         }
     });
