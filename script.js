@@ -3,21 +3,15 @@ const textContainer = document.getElementById('textContainer');
 const hiddenText = document.getElementById('hiddenText');
 
 const texts = [
-    "welfhem--ck---se--7",
-    "welc£m--ck-Cask--6",
-    "welco£e--b-ck-Cask--5",
-    "Welcom&-Back-Cask--4",
-    "Welcom£-back-Case--3..",
-    "Welcome back Case",
-    "Welcome b0ck Case",
-    "Welcome back.....",
-    "Welco.e bac.....",
-    "Welc..e b........",
-    "We....e...c....",
-    "We........c......",
-    ".......ac......",
-    ".....",
-    "CLICK"
+    "1",
+    "2",
+    "3",
+    "456",
+    "23",
+    "4",
+    "5",
+    "sod off",
+    "press the button then"
 ];
 
 let index = 0;
@@ -36,7 +30,7 @@ function updateText() {
 }
 
 animateButton.addEventListener('mouseover', () => {
-    if (!animating && !completed && textContainer.textContent !== "ERROR....RE.SET") {
+    if (!animating && !completed && textContainer.textContent !== "love u bye") {
         animating = true;
         index = 0;
         updateText();
@@ -44,11 +38,11 @@ animateButton.addEventListener('mouseover', () => {
 });
 
 animateButton.addEventListener('click', () => {
-    if (textContainer.textContent === "CLICK") {
+    if (textContainer.textContent === "press the button then") {
         revealParagraph();
-        textContainer.textContent = "ERROR....RE.SET";
+        textContainer.textContent = "love u bye";
         completed = false;  // Allow reset only after displaying "ERROR....RE.SET"
-    } else if (textContainer.textContent === "ERROR....RE.SET") {
+    } else if (textContainer.textContent === "love u bye") {
         resetAnimation();
         textContainer.textContent = 'Q3lfhem--ck-8%-se--7';
     }
