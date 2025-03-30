@@ -72,7 +72,7 @@ if (myButton) {
     // Attach an event listener to the button
     myButton.addEventListener('click', () => {
         // Check if the button's text content is "CLICK"
-        if (myButton.textContent === "press the button then...") {
+        if (myButton.textContent === "love u bye") {
             soundEffect.play(); // Play the sound effect
         }
     });
